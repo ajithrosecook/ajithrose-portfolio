@@ -344,9 +344,12 @@ footer {
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(12, 8, 8, 0.7)),
+    url(https://img.freepik.com/free-photo/italian-uncooked-pasta-conchiglie-wooden-bowl_114579-53733.jpg?t=st=1731821664~exp=1731825264~hmac=95963b6…&w=900);
+  background-color: black;
 }
 #experience h2 {
-  color: #374054;
+  color: #ffffff;
 }
 #experience-timeline {
   margin: 30px auto 0 auto;
@@ -377,8 +380,8 @@ footer {
 }
 .vtimeline-content {
   margin-left: 350px;
-  background: #fff;
-  border: 1px solid #e6e6e6;
+  background: #000000;
+  border: 1px solid #4a3f3f;
   padding: 15px;
   border-radius: 3px;
   text-align: left;
@@ -386,18 +389,21 @@ footer {
 .vtimeline-content h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: #ffffff;
   display: inline-block;
   margin: 0;
+}
+#list {
+  color: #bab5b5;
 }
 .vtimeline-content h4 {
   font-size: 1.2em;
   font-weight: 300;
-  color: #7e8890;
+  color: #ffffff;
   margin: 0 0 15px 0;
 }
 .vtimeline-content p {
-  color: #74808a;
+  color: #ffffff;
   font-size: 0.9em;
   margin: 0;
 }
@@ -430,7 +436,7 @@ footer {
   left: 0;
   top: 10px;
   font-weight: 300;
-  color: #374054;
+  color: #ffffff;
 }
 #education {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(12, 8, 8, 0.7)),
@@ -566,6 +572,42 @@ footer {
   list-style: none;
   cursor: default;
   font-size: 1.2em;
+}
+#resume {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(12, 8, 8, 0.7)),
+    url(https://img.freepik.com/free-photo/crop-plate-with-salad_23-2147753678.jpg?t=st=1731827024~exp=1731830624~hmac=4b13e5eea76dc5b13cb525ef8adeb3af6d80c62da24a91c644690b775826428c&w=1060);
+  background-color: black;
+}
+.resume-section {
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-height: max-content;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.btn-primary {
+  margin: 20px;
+}
+
+.cardmedia {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 0 15px;
+  }
+
+  .cardmedia {
+    height: 800px;
+  }
 }
 #contact {
   padding: 50px 15px;
